@@ -59,10 +59,3 @@
 * componentWillPreload	
 预加载，只在微信小程序中可用
 
-### 作者信息
-制作：何喜阳   
-微信公众号：何喜阳  
-博客：http://hexiyang.cn
-=======
-# dangjian
->>>>>>> 0e9abe5e1fc79fa213475f8c772a54a7d8306e06
