@@ -1,0 +1,15 @@
+@charset "utf-8";
+// date：2019-03-02 ,
+// author: Hexiyang ,
+// author-blog: http://hexiyang.cn
+.nulltips {
+  display: block;
+  margin: 30% auto;
+  text-align: center;
+
+  &__text {
+    color: #333;
+    display: block;
+    font-size: 32px;
+  }
+}

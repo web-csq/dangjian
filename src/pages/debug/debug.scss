@@ -1,0 +1,64 @@
+@charset "utf-8";
+// date：2019-01-05 ,
+// author: Hexiyang ,
+// author-blog: http://hexiyang.cn
+.debug {
+  padding: 3%;
+
+  .tips {
+    display: block;
+    color: #888;
+    padding: 20px;
+    font-size: 28px;
+    text-align: justify;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    position: relative;
+  }
+
+  .btn-ikonw {
+    font-size: 28px;
+    background: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #386fe4;
+
+    &:before, &:after {
+      border: none;
+    }
+  }
+
+  .info {
+    margin-top: 40px;
+
+    &-text {
+      display: block;
+      padding-top: 10px;
+      font-size: 30px;
+    }
+  }
+
+  .error-log {
+    @extend .tips;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btns {
+    .btn {
+      font-size: 28px;
+      margin-top: 10px;
+    }
+  }
+
+  .copyright {
+    //position: absolute;
+    //bottom: 0;
+    width: 100%;
+    color: #888;
+    font-size: 24px;
+    line-height: 10;
+    text-align: center;
+  }
+}

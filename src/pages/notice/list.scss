@@ -1,0 +1,20 @@
+@charset "utf-8";
+// date：2019-01-07 ,
+// author: Hexiyang ,
+// author-blog: http://hexiyang.cn
+.list {
+  margin-top: 20px;
+  .item{
+    padding: 3%;
+    border-bottom: 2px solid #f2f2f2;
+    background-color: white;
+    .title{
+      font-size: 32px;
+    }
+    .post-time{
+      color: #888;
+      font-size: 30px;
+      padding-top: 20px;
+    }
+  }
+}

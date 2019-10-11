@@ -1,0 +1,114 @@
+@charset "utf-8";
+// date：2019-01-05 ,
+// author: Hexiyang ,
+// author-blog: http://hexiyang.cn
+page {
+  height: auto;
+  background-color: white;
+}
+
+.top {
+  .logo {
+    width: 100px;
+    height: 100px;
+    padding: 35px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 10px #888;
+    position: relative;
+    z-index: 2;
+  }
+
+  .title {
+    display: block;
+    color: #2462e3;
+    width: 144px;
+    font-size: 34px;
+    text-align: justify;
+    margin: 0 auto;
+  }
+
+  .tenter {
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 370px;
+    width: 100%;
+    z-index: -1;
+  }
+
+}
+
+.main {
+  width: 600px;
+  margin: 600px auto 0 auto;
+
+  .phone, .password {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px 0 rgba(102, 102, 102, 0.1);
+    border: 2px solid #ccc;
+    padding: 18px 20px;
+    margin-bottom: 50px;
+
+    .input {
+      font-size: 30px;
+      margin-left: 20px;
+      width: 100%;
+    }
+  }
+}
+
+.fun {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+
+  .reg, .forget-password {
+    font-size: 28px;
+    color: #999;
+  }
+
+}
+
+.other-login {
+  position: absolute;
+  bottom: 90px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #ccc;
+
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    &::after, &::before {
+      content: "";
+      width: 200px;
+      height: 2px;
+      border-top: 2px solid #ccc;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.visitor {
+  display: inline-block;
+  &-text {
+    width: 120px;
+    padding-left: 10px;
+  }
+}
